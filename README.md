@@ -16,8 +16,9 @@ RELATIONSIPS
 * _instrinsic_: cols owned by table that define its characteristics
 
 DATA INTEGRITY
-* dupe %
 * null %
+* distinct %
+* dupes
 
 # implementation
 
