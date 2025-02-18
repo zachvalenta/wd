@@ -1,3 +1,9 @@
+# things to use instead
+
+* Datawrangler
+* better IDE like Scripton https://news.ycombinator.com/item?id=43090214
+* Visidata
+
 # design
 
 🧠
@@ -18,7 +24,7 @@ RELATIONSIPS
 DATA INTEGRITY
 * null %
 * distinct %
-* dupes
+* dupes https://claude.ai/chat/2b1b9f45-cb54-4cd5-a435-5b65fe3af73f
 
 # implementation
 
