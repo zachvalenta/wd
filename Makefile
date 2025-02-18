@@ -10,8 +10,8 @@ help:
 db:
 	litecli db.sqlite
 
-# find:
-# 	python find_fk.py $(tbl1) $(tbl2)
+find:
+	python find_fk.py $(tbl1) $(tbl2)
 
 # erd:
 # 	d2 --watch erd.d2 erd.svg
