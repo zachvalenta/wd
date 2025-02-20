@@ -31,6 +31,9 @@ DATA INTEGRITY
 I'd like to do all this with Polars under the hood:
 ```python
 df = pl.read_database("SELECT * FROM my_table", "path/to/db.sqlite")
+
+# get schema without loading the whole table
+pl.scan_csv('data/catalog.csv', separator=',', infer_schema_length=100).collect_schema()
 ```
 
 # usage
